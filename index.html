@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrin Project</title>
+  <style>
+    .fex{
+      height:100vh;
+      display:flex;
+      justify-content: center;
+    }
+    .container{
+      display:grid;
+      gap:9px;
+      height:748px;
+      width:748px;
+      grid-template-columns: 320px 1fr;
+      grid-template-rows:414px 1fr;
+      background-color: #000;
+    }
+    .white{
+      background-color: #F0F1EC;
+    }
+    .red{
+      background-color: #E72F24;
+    }
+    .black{
+      background-color: #232629;
+    }
+    .bluea{
+      background-color:  #004592;
+    }
+    .yellow{
+      background-color: #F9D01E;
+    }
+    .b{
+      grid-column: span 2;
+      display:grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 296px 20px;
+      gap:9px;
+    }
+    .bb{
+      grid-column:span 2;
+    }
+    .blue{
+      grid-row: span 2;
+      display:grid;
+      grid-template: 130px 1fr/1fr;
+      gap:10px;
+      
+    }
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="fex">
+   <div class="container">
+    <div class="red a"></div>
+    <div class="white a"></div>
+    <div class="b">
+      <div class="white ba"></div>
+      <div class="white bb"></div>
+      <div class="blue">
+        <div class="bluea"></div>
+        <div class="white c"></div>
+      </div>
+      <div class="white bc"></div>
+      <div class="yellow"></div>
+      <div class="black"></div>
+   </div>
+  </div>
+</body>
+
+</html>
